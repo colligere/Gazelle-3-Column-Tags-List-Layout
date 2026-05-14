@@ -1,20 +1,24 @@
 // ==UserScript==
-// @name			  Empornium 3-Column Tags List Layout
+// @name			Empornium 3-Column Tags List Layout
 // @version			1.0.2
-// @description	Displays the tags list on torrent details page in 3-column layout.
+// @description		Displays the tags list on torrent details page in 3-column layout.
 // @require			https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js
-// @match			  http://*.empornium.me/*
-// @match			  https://*.empornium.me/*
-// @match			  http://empornium.me/*
-// @match			  https://empornium.me/*
-// @match			  http://*.empornium.sx/*
-// @match			  https://*.empornium.sx/*
-// @match			  http://empornium.sx/*
-// @match			  https://empornium.sx/*
-// @include     https://femdomcult.org/*
-// @include     /https?://www\.empornium\.(me|sx|is)/.*/
-// @include     /https?://www\.enthralled\.(me)/.*/
-// @include     /https?://emparadise\.(rs)/.*/
+//
+// @match        	https://*.empornium.is/torrents.php*
+// @match        	https://*.empornium.sx/torrents.php*
+// @match        	https://*.empornium.is/bookmarks.php*
+// @match        	https://*.empornium.sx/bookmarks.php*
+// @exclude      	/https?://(www\.)?empornium\.(sx|is)/torrents\.php\?id.*/
+//
+// @match        	https://pornbay.org/torrents.php*
+// @exclude      	/https?://pornbay\.org/torrents\.php\?id.*/
+//
+// @match        	https://*.emparadise.rs/torrents.php*
+// @exclude      	/https?://(www\.)?emparadise\.rs/torrents\.php\?id.*/
+//
+// @downloadURL  	https://github.com/colligere/YaTHi/raw/main/YaTHi.user.js
+// @updateURL    	https://github.com/colligere/YaTHi/raw/main/YaTHi.user.js
+//
 // @namespace		LaMa
 // ==/UserScript==
 function runScript(){

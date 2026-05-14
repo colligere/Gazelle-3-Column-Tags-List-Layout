@@ -6,15 +6,7 @@
 //
 // @match        	https://*.empornium.is/torrents.php*
 // @match        	https://*.empornium.sx/torrents.php*
-// @match        	https://*.empornium.is/bookmarks.php*
-// @match        	https://*.empornium.sx/bookmarks.php*
-// @exclude      	/https?://(www\.)?empornium\.(sx|is)/torrents\.php\?id.*/
-//
-// @match        	https://pornbay.org/torrents.php*
-// @exclude      	/https?://pornbay\.org/torrents\.php\?id.*/
-//
 // @match        	https://*.emparadise.rs/torrents.php*
-// @exclude      	/https?://(www\.)?emparadise\.rs/torrents\.php\?id.*/
 //
 // @downloadURL  	https://raw.githubusercontent.com/colligere/Gazelle-3-Column-Tags-List-Layout/refs/heads/main/Gazelle%203-Column%20Tags%20List%20Layout.js
 // @updateURL    	https://raw.githubusercontent.com/colligere/Gazelle-3-Column-Tags-List-Layout/refs/heads/main/Gazelle%203-Column%20Tags%20List%20Layout.js
